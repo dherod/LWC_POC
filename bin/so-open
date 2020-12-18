@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# ./so-open
+# Open a scratch org
+
+# Org Alias is entered from command line
+if [ $1 == "" ]; then
+  echo "Org Alias must be entered as first parameter."
+  exit 1
+fi
+
+sfdx force:config:set defaultusername=$1
+sfdx force:org:open

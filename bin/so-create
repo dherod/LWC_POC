@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# so-create.sh
+# ./so-create
 # Create a scratch org
 # Deploy LWC Recipes
 # Open scratch org

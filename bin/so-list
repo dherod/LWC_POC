@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# ./so-list
+# List scratch orgs (and others!)
+
+sfdx force:org:list --all
